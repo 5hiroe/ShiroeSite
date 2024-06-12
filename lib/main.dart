@@ -147,7 +147,7 @@ class _MyAppState extends State<MyApp> {
                                       text: 'Github',
                                       style: kPrimaryFillOrange,
                                       onPressed: () {
-                                        _launchURL(projects[index].url);
+                                        _launchURL(projects[index].githubUrl);
                                       },
                                     ),
                                   ),
